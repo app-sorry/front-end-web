@@ -558,7 +558,7 @@ export default function App() {
               <span className="text-lg font-bold">Sorry</span>
             </div>
             <p className="text-white/40 text-sm text-center md:text-left">
-              Tecnologia para conectar arenas, jogadores e rotina de quadra.
+              66.193.588/0001-55 - Sorry Group LTDA.
             </p>
           </div>
 
