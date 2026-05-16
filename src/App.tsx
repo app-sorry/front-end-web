@@ -7,9 +7,10 @@ import {
   TrendingUp, Activity
 } from 'lucide-react';
 import {
-  LogoMark, PrimaryButton, SecondaryButton,
+  PrimaryButton, SecondaryButton,
   SectionEyebrow, LiquidGlassCard
 } from './components/primitives';
+import sorryLogoWhite from './assets/Logo_Completa_Branca.png';
 
 export default function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -62,8 +63,7 @@ export default function App() {
       >
         <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <LogoMark />
-            <span className="text-xl font-bold tracking-tight">Sorry</span>
+            <img src={sorryLogoWhite} alt="Sorry" className="h-20 w-auto" />
           </div>
 
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-white/70">
@@ -554,8 +554,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-col items-center md:items-start gap-4">
             <div className="flex items-center gap-3">
-              <LogoMark className="w-6 h-6" />
-              <span className="text-lg font-bold">Sorry</span>
+              <img src={sorryLogoWhite} alt="Sorry" className="h-18 w-auto" />
             </div>
             <p className="text-white/40 text-sm text-center md:text-left">
               66.193.588/0001-55 - Sorry Group LTDA.
